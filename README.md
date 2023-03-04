@@ -28,9 +28,3 @@ simple syntax:
   ]
 }
 ```
-
-this simple story will play out as follows :
-welcome, pick an option : 
-1.go to next
->>> 1
-end of story
