@@ -1,0 +1,65 @@
+{
+    "paths" : [
+        {
+            "id" : "start",
+            "title" : "you are a wandering traveler, pick where do u want to go :",
+            "options" : [
+                {
+                    "sub_title" : "1.go to the forest",
+                    "accepting" : [
+                        "1",
+                        "forest",
+                        "go to the forest"
+                    ],
+                    "goto" : "in_forest"
+                },
+                {
+                    "sub_title" : "2.go to the castle",
+                    "accepting" : [
+                        "2",
+                        "castle",
+                        "go to the castle"
+                    ],
+                    "goto" : "in_castle"
+                }
+            ]
+        },
+        {
+            "id" : "in_forest",
+            "title" : "you were mauled by a bear.",
+            "options" : []
+        },
+        {
+            "id" : "in_castle",
+            "title" : "the gaurds start to attack you, do you want to:",
+            "options" : [
+                {
+                    "sub_title" : "1.run away",
+                    "accepting" : [
+                        "1",
+                        "run"
+                    ],
+                    "goto" : "running"
+                },
+                {
+                    "sub_title" : "2.fight back!",
+                    "accepting" : [
+                        "2",
+                        "fight"
+                    ],
+                    "goto" : "fighting"
+                }
+            ]
+        },
+        {
+            "id" : "running",
+            "title" : "you were shot by an arrow.",
+            "options" : []
+        },
+        {
+            "id" : "fighting",
+            "title" : "you fought bravely but succumbed to injuries.",
+            "options" : []
+        }
+    ]
+}
