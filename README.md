@@ -28,3 +28,6 @@ simple syntax:
   ]
 }
 ```
+output:
+
+![image](https://user-images.githubusercontent.com/120199463/222873422-1b1a04d9-0867-4d85-96b3-677b6b132eb5.png)
